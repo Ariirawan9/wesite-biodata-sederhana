@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata Diri - Ari Irawan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="top-header">
+      <h1>Profil Saya</h1>
+    </header>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#biodata">Biodata</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <main class="content-wrapper">
+      <section id="beranda" class="page">
+        <h2>Selamat Datang di Website Biodata Saya!</h2>
+        <p>
+          Di sini, Anda akan menemukan sekilas tentang siapa saya, perjalanan
+          yang telah saya lalui, dan apa yang mendorong semangat saya. Saya
+          senang berbagi cerita dan saya harap Anda menikmati penjelajahan
+          informasi yang telah saya rangkum khusus untuk Anda.
+        </p>
+      </section>
+
+      <section id="biodata" class="page profile-page-layout">
+        <h2>Biodata Diri</h2>
+        <div class="profile-container">
+          <div class="profile-card profile-main">
+            <div class="profile-image">
+              <img src="img/profil.JPG" alt="Foto Profil Anda" />
+            </div>
+            <h2>Ari Irawan</h2>
+            <p>Content Creator | Teknologi</p>
+          </div>
+
+          <div class="profile-card profile-info">
+            <h3>Tempat, Tanggal Lahir</h3>
+            <p>OKI, 09 September 2004</p>
+          </div>
+
+          <div class="profile-card profile-info">
+            <h3>Alamat</h3>
+            <p>Dusun IV Desa Cahaya Makmur</p>
+          </div>
+
+          <div class="profile-card profile-info">
+            <h3>Email</h3>
+            <p>arikomputer04@gmail.com</p>
+          </div>
+
+          <div class="profile-card profile-info">
+            <h3>Telepon</h3>
+            <p>+6289685496868</p>
+          </div>
+
+          <div class="profile-card profile-info">
+            <h3>Hobi 1</h3>
+            <p>Jogging</p>
+          </div>
+
+          <div class="profile-card profile-info">
+            <h3>Hobi 2</h3>
+            <p>Edit Video</p>
+          </div>
+
+          <div class="profile-card profile-info">
+            <h3>Bahasa</h3>
+            <p>Indonesia, Inggris (Dasar)</p>
+          </div>
+
+          <div class="profile-card profile-info">
+            <h3>Keahlian</h3>
+            <p>Desain Grafis, Editing Video</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pendidikan" class="page">
+        <h2>Riwayat Pendidikan</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Jenjang</th>
+              <th>Institusi</th>
+              <th>Tahun Masuk</th>
+              <th>Tahun Lulus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Jenjang">S2</td>
+              <td data-label="Institusi">Universitas Nurul Huda</td>
+              <td data-label="Tahun Masuk">2027</td>
+              <td data-label="Tahun Lulus">2029</td>
+            </tr>
+            <tr>
+              <td data-label="Jenjang">S1</td>
+              <td data-label="Institusi">Universitas Nurul Huda</td>
+              <td data-label="Tahun Masuk">2023</td>
+              <td data-label="Tahun Lulus">2027</td>
+            </tr>
+            <tr>
+              <td data-label="Jenjang">SMA</td>
+              <td data-label="Institusi">Ma Al-Aqidah Kuta Pandan</td>
+              <td data-label="Tahun Masuk">2020</td>
+              <td data-label="Tahun Lulus">2023</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="kontak" class="page">
+        <h2>Kontak Saya</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="5" required></textarea>
+          </div>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="bottom-footer">
+      <p>&copy; 2025 Ari Irawan. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+  </body>
+</html>
